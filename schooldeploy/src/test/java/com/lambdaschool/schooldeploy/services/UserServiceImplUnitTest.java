@@ -1,12 +1,12 @@
 package com.lambdaschool.schooldeploy.services;
 
-import com.lambdaschool.starthere.StartHereApplication;
-import com.lambdaschool.starthere.exceptions.ResourceFoundException;
-import com.lambdaschool.starthere.exceptions.ResourceNotFoundException;
-import com.lambdaschool.starthere.models.Role;
-import com.lambdaschool.starthere.models.User;
-import com.lambdaschool.starthere.models.UserRoles;
-import com.lambdaschool.starthere.models.Useremail;
+import com.lambdaschool.schooldeploy.SchoolDeployApplication;
+import com.lambdaschool.schooldeploy.exceptions.ResourceFoundException;
+import com.lambdaschool.schooldeploy.exceptions.ResourceNotFoundException;
+import com.lambdaschool.schooldeploy.models.Role;
+import com.lambdaschool.schooldeploy.models.User;
+import com.lambdaschool.schooldeploy.models.UserRoles;
+import com.lambdaschool.schooldeploy.models.Useremail;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.FixMethodOrder;
@@ -31,7 +31,7 @@ import static junit.framework.TestCase.assertEquals;
  */
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = StartHereApplication.class)
+@SpringBootTest(classes = SchoolDeployApplication.class)
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class UserServiceImplUnitTest
 {

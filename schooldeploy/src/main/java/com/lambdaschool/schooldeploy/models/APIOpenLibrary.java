@@ -1,6 +1,6 @@
 package com.lambdaschool.schooldeploy.models;
 
-import com.lambdaschool.starthere.logging.Loggable;
+import com.lambdaschool.schooldeploy.logging.Loggable;
 
 @Loggable
 // Taken from the output of https://openlibrary.org/api/books?bibkeys=ISBN:0982477562&format=json

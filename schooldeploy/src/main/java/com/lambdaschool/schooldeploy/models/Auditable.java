@@ -1,6 +1,6 @@
 package com.lambdaschool.schooldeploy.models;
 
-import com.lambdaschool.starthere.logging.Loggable;
+import com.lambdaschool.schooldeploy.logging.Loggable;
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedBy;

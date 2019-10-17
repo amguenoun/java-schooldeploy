@@ -1,9 +1,9 @@
 package com.lambdaschool.schooldeploy.services;
 
-import com.lambdaschool.starthere.exceptions.ResourceNotFoundException;
-import com.lambdaschool.starthere.logging.Loggable;
-import com.lambdaschool.starthere.models.Useremail;
-import com.lambdaschool.starthere.repository.UseremailRepository;
+import com.lambdaschool.schooldeploy.exceptions.ResourceNotFoundException;
+import com.lambdaschool.schooldeploy.logging.Loggable;
+import com.lambdaschool.schooldeploy.models.Useremail;
+import com.lambdaschool.schooldeploy.repository.UseremailRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;

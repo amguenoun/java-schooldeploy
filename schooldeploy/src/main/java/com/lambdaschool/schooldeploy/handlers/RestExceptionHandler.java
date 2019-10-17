@@ -1,10 +1,10 @@
 package com.lambdaschool.schooldeploy.handlers;
 
-import com.lambdaschool.starthere.exceptions.ResourceFoundException;
-import com.lambdaschool.starthere.exceptions.ResourceNotFoundException;
-import com.lambdaschool.starthere.exceptions.ValidationError;
-import com.lambdaschool.starthere.logging.Loggable;
-import com.lambdaschool.starthere.models.ErrorDetail;
+import com.lambdaschool.schooldeploy.exceptions.ResourceFoundException;
+import com.lambdaschool.schooldeploy.exceptions.ResourceNotFoundException;
+import com.lambdaschool.schooldeploy.exceptions.ValidationError;
+import com.lambdaschool.schooldeploy.logging.Loggable;
+import com.lambdaschool.schooldeploy.models.ErrorDetail;
 import org.springframework.beans.TypeMismatchException;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;

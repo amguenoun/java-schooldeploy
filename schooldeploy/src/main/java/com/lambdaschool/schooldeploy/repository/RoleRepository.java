@@ -1,7 +1,7 @@
 package com.lambdaschool.schooldeploy.repository;
 
-import com.lambdaschool.starthere.models.Role;
-import com.lambdaschool.starthere.view.JustTheCount;
+import com.lambdaschool.schooldeploy.models.Role;
+import com.lambdaschool.schooldeploy.view.JustTheCount;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;

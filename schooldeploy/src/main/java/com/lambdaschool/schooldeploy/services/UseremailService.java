@@ -1,6 +1,6 @@
 package com.lambdaschool.schooldeploy.services;
 
-import com.lambdaschool.starthere.models.Useremail;
+import com.lambdaschool.schooldeploy.models.Useremail;
 
 import java.util.List;
 

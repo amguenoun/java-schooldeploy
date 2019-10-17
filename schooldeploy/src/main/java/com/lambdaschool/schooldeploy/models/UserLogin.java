@@ -1,6 +1,6 @@
 package com.lambdaschool.schooldeploy.models;
 
-import com.lambdaschool.starthere.logging.Loggable;
+import com.lambdaschool.schooldeploy.logging.Loggable;
 
 //For documentation for swagger manual api plugin. Doesn't show up as table because no entity annotation
 @Loggable

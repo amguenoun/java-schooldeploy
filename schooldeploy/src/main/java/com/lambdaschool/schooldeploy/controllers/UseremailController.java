@@ -1,8 +1,8 @@
 package com.lambdaschool.schooldeploy.controllers;
 
-import com.lambdaschool.starthere.logging.Loggable;
-import com.lambdaschool.starthere.models.Useremail;
-import com.lambdaschool.starthere.services.UseremailService;
+import com.lambdaschool.schooldeploy.logging.Loggable;
+import com.lambdaschool.schooldeploy.models.Useremail;
+import com.lambdaschool.schooldeploy.services.UseremailService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

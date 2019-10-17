@@ -1,6 +1,6 @@
 package com.lambdaschool.schooldeploy.repository;
 
-import com.lambdaschool.school.model.Instructor;
+import com.lambdaschool.schooldeploy.models.Instructor;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.ArrayList;

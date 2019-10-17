@@ -1,11 +1,11 @@
 package com.lambdaschool.schooldeploy.services;
 
-import com.lambdaschool.starthere.exceptions.ResourceFoundException;
-import com.lambdaschool.starthere.exceptions.ResourceNotFoundException;
-import com.lambdaschool.starthere.logging.Loggable;
-import com.lambdaschool.starthere.models.Role;
-import com.lambdaschool.starthere.repository.RoleRepository;
-import com.lambdaschool.starthere.repository.UserRepository;
+import com.lambdaschool.schooldeploy.exceptions.ResourceFoundException;
+import com.lambdaschool.schooldeploy.exceptions.ResourceNotFoundException;
+import com.lambdaschool.schooldeploy.logging.Loggable;
+import com.lambdaschool.schooldeploy.models.Role;
+import com.lambdaschool.schooldeploy.repository.RoleRepository;
+import com.lambdaschool.schooldeploy.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

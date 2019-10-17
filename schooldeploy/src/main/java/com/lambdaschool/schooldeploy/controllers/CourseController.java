@@ -1,7 +1,7 @@
 package com.lambdaschool.schooldeploy.controllers;
 
-import com.lambdaschool.school.model.Course;
-import com.lambdaschool.school.service.CourseService;
+import com.lambdaschool.schooldeploy.models.Course;
+import com.lambdaschool.schooldeploy.services.CourseService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

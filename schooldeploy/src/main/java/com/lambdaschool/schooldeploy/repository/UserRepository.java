@@ -1,6 +1,6 @@
 package com.lambdaschool.schooldeploy.repository;
 
-import com.lambdaschool.starthere.models.User;
+import com.lambdaschool.schooldeploy.models.User;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.PagingAndSortingRepository;
 

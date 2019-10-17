@@ -1,9 +1,9 @@
 package com.lambdaschool.schooldeploy.config;
 
 import com.fasterxml.classmate.TypeResolver;
-import com.lambdaschool.starthere.models.APIOpenLibrary;
-import com.lambdaschool.starthere.models.ErrorDetail;
-import com.lambdaschool.starthere.models.TokenModel;
+import com.lambdaschool.schooldeploy.models.APIOpenLibrary;
+import com.lambdaschool.schooldeploy.models.ErrorDetail;
+import com.lambdaschool.schooldeploy.models.TokenModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

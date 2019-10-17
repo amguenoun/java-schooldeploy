@@ -1,8 +1,9 @@
 package com.lambdaschool.schooldeploy.services;
 
-import com.lambdaschool.school.model.Course;
-import com.lambdaschool.school.repository.CourseRepository;
-import com.lambdaschool.school.view.CountStudentsInCourses;
+import com.lambdaschool.schooldeploy.models.Course;
+import com.lambdaschool.schooldeploy.models.Student;
+import com.lambdaschool.schooldeploy.repository.CourseRepository;
+import com.lambdaschool.schooldeploy.view.CountStudentsInCourses;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -42,5 +43,24 @@ public class CourseServiceImpl implements CourseService
         {
             throw new EntityNotFoundException(Long.toString(id));
         }
+    }
+
+    @Transactional
+    @Override
+    public Course save(Course course) {
+        Course newCourse = new Course();
+
+        newCourse.setCoursename(course.getCoursename());
+        newCourse.setInstructor(course.getInstructor());
+
+        ArrayList<Student> newStudents = new ArrayList<>();
+
+        for(Student s : course.getStudents()){
+            newStudents.add(s);
+        }
+
+        newCourse.setStudents(newStudents);
+
+        return courserepos.save(newCourse);
     }
 }

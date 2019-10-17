@@ -1,11 +1,11 @@
 package com.lambdaschool.schooldeploy.controllers;
 
-import com.lambdaschool.starthere.logging.Loggable;
-import com.lambdaschool.starthere.models.User;
-import com.lambdaschool.starthere.models.UserMinimum;
-import com.lambdaschool.starthere.models.UserRoles;
-import com.lambdaschool.starthere.services.RoleService;
-import com.lambdaschool.starthere.services.UserService;
+import com.lambdaschool.schooldeploy.logging.Loggable;
+import com.lambdaschool.schooldeploy.models.User;
+import com.lambdaschool.schooldeploy.models.UserMinimum;
+import com.lambdaschool.schooldeploy.models.UserRoles;
+import com.lambdaschool.schooldeploy.services.RoleService;
+import com.lambdaschool.schooldeploy.services.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

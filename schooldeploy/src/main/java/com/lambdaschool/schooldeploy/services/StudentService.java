@@ -1,6 +1,6 @@
 package com.lambdaschool.schooldeploy.services;
 
-import com.lambdaschool.school.model.Student;
+import com.lambdaschool.schooldeploy.models.Student;
 
 import java.util.List;
 

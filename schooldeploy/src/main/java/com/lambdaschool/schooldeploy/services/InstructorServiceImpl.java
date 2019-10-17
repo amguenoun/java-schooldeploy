@@ -1,8 +1,8 @@
 package com.lambdaschool.schooldeploy.services;
 
-import com.lambdaschool.school.exceptions.ResourceNotFoundException;
-import com.lambdaschool.school.model.Instructor;
-import com.lambdaschool.school.repository.InstructorRepository;
+import com.lambdaschool.schooldeploy.exceptions.ResourceNotFoundException;
+import com.lambdaschool.schooldeploy.models.Instructor;
+import com.lambdaschool.schooldeploy.repository.InstructorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

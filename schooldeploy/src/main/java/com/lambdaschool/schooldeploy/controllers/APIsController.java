@@ -1,7 +1,7 @@
 package com.lambdaschool.schooldeploy.controllers;
 
-import com.lambdaschool.starthere.logging.Loggable;
-import com.lambdaschool.starthere.models.APIOpenLibrary;
+import com.lambdaschool.schooldeploy.logging.Loggable;
+import com.lambdaschool.schooldeploy.models.APIOpenLibrary;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.ParameterizedTypeReference;

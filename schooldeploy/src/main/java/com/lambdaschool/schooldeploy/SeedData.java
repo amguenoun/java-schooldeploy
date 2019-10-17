@@ -3,12 +3,10 @@ package com.lambdaschool.schooldeploy;
 import com.github.javafaker.Faker;
 import com.github.javafaker.service.FakeValuesService;
 import com.github.javafaker.service.RandomService;
-import com.lambdaschool.starthere.models.Role;
-import com.lambdaschool.starthere.models.User;
-import com.lambdaschool.starthere.models.UserRoles;
-import com.lambdaschool.starthere.models.Useremail;
-import com.lambdaschool.starthere.services.RoleService;
-import com.lambdaschool.starthere.services.UserService;
+import com.lambdaschool.schooldeploy.models.*;
+import com.lambdaschool.schooldeploy.services.CourseService;
+import com.lambdaschool.schooldeploy.services.RoleService;
+import com.lambdaschool.schooldeploy.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -27,10 +25,21 @@ public class SeedData implements CommandLineRunner
     @Autowired
     UserService userService;
 
+    @Autowired
+    CourseService courseService;
+
 
     @Override
     public void run(String[] args) throws Exception
     {
+
+        Course a = new Course("Science");
+
+        Course b = new Course("English");
+
+        courseService.save(a);
+        courseService.save(b);
+
         Role r1 = new Role("admin");
         Role r2 = new Role("user");
         Role r3 = new Role("data");

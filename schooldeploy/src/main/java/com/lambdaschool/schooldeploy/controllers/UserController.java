@@ -1,8 +1,8 @@
 package com.lambdaschool.schooldeploy.controllers;
 
-import com.lambdaschool.starthere.logging.Loggable;
-import com.lambdaschool.starthere.models.User;
-import com.lambdaschool.starthere.services.UserService;
+import com.lambdaschool.schooldeploy.logging.Loggable;
+import com.lambdaschool.schooldeploy.models.User;
+import com.lambdaschool.schooldeploy.services.UserService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

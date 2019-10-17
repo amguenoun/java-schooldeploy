@@ -1,7 +1,7 @@
 package com.lambdaschool.schooldeploy.config;
 
 import com.fasterxml.classmate.TypeResolver;
-import com.lambdaschool.starthere.models.UserLogin;
+import com.lambdaschool.schooldeploy.models.UserLogin;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Component;

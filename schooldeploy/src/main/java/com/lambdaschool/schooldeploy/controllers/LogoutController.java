@@ -1,6 +1,6 @@
 package com.lambdaschool.schooldeploy.controllers;
 
-import com.lambdaschool.starthere.logging.Loggable;
+import com.lambdaschool.schooldeploy.logging.Loggable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

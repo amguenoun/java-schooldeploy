@@ -1,7 +1,7 @@
 package com.lambdaschool.schooldeploy.repository;
 
-import com.lambdaschool.school.model.Course;
-import com.lambdaschool.school.view.CountStudentsInCourses;
+import com.lambdaschool.schooldeploy.models.Course;
+import com.lambdaschool.schooldeploy.view.CountStudentsInCourses;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;

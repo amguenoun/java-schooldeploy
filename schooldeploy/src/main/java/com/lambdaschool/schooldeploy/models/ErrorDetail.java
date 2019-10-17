@@ -1,8 +1,8 @@
 package com.lambdaschool.schooldeploy.models;
 
 
-import com.lambdaschool.starthere.exceptions.ValidationError;
-import com.lambdaschool.starthere.logging.Loggable;
+import com.lambdaschool.schooldeploy.exceptions.ValidationError;
+import com.lambdaschool.schooldeploy.logging.Loggable;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

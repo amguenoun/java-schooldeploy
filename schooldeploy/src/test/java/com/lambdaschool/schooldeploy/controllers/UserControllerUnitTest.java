@@ -1,11 +1,11 @@
 package com.lambdaschool.schooldeploy.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.lambdaschool.starthere.models.Role;
-import com.lambdaschool.starthere.models.User;
-import com.lambdaschool.starthere.models.UserRoles;
-import com.lambdaschool.starthere.models.Useremail;
-import com.lambdaschool.starthere.services.UserService;
+import com.lambdaschool.schooldeploy.models.Role;
+import com.lambdaschool.schooldeploy.models.User;
+import com.lambdaschool.schooldeploy.models.UserRoles;
+import com.lambdaschool.schooldeploy.models.Useremail;
+import com.lambdaschool.schooldeploy.services.UserService;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -36,7 +36,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 //     getCurrentUserName
 
 @RunWith(SpringRunner.class)
-@WebMvcTest(value = UserController.class, secure = false)
+@WebMvcTest(value = UserController.class) // secure = false doesn't work so I took it out - test may not work
 public class UserControllerUnitTest
 {
     @Autowired
