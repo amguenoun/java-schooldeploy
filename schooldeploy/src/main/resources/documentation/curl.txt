@@ -1,0 +1,34 @@
+// get admins access code
+curl -X POST --user "lambda-client:lambda-secret" -d "grant_type=password&username=admin&password=password" http://localhost:2019/login
+
+//COURSE CONTROLLER
+
+//GET /courses
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer 56ab5075-de2e-43ba-a407-e52b8f267ac7" http://localhost:2019/courses/courses
+
+//GET /studcount
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer 56ab5075-de2e-43ba-a407-e52b8f267ac7" http://localhost:2019/courses/studcount
+
+//DELETE /courses/{courseid}
+curl -X DELETE -H "Authorization: Bearer 56ab5075-de2e-43ba-a407-e52b8f267ac7" http://localhost:2019/courses/courses/4
+
+
+//STUDENT CONTROLLER
+
+//GET /students
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer 56ab5075-de2e-43ba-a407-e52b8f267ac7" http://localhost:2019/students/students
+
+//GET /student/{student.id}
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer 56ab5075-de2e-43ba-a407-e52b8f267ac7" http://localhost:2019/students/student/3
+
+//GET /student/namelike/{name}
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer 56ab5075-de2e-43ba-a407-e52b8f267ac7" http://localhost:2019/students/student/namelike/joe
+
+//POST /student
+curl -X POST -H "Content-Type: application/json" -d "{\"studname\": \"Ginger\"}" http://localhost:2019/students/student
+
+//PUT /student/{studentid}
+curl -X PUT -H "Content-Type: application/json" -H "Authorization: Bearer 3d28337c-b699-4ae6-86fe-4961f42b1142" -d  "{ \"studname\": \"Tiffany\"}" http://localhost:2019/students/student/5
+
+//DELETE /student/{Studentid}
+curl -X DELETE -H "Authorization: Bearer 56ab5075-de2e-43ba-a407-e52b8f267ac7" http://localhost:2019/students/Students/5
